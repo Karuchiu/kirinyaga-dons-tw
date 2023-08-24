@@ -16,3 +16,11 @@
 .nav-link {
     @apply p-2 text-3xl border-cyan-500 border-b-2 font-ubuntu cursor-pointer hover:bg-cyan-500 transition ease-linear duration-500;
 }
+
+.home-icon-1 {
+  @apply flex justify-center items-center duration-700 transform hover:scale-150;
+}
+
+.home-icon-2 {
+  @apply flex justify-center items-center duration-700 transform hover:scale-75;
+}
