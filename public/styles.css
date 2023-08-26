@@ -538,6 +538,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed{
+  position: fixed;
+}
+
+.z-50{
+  z-index: 50;
+}
+
 .col-span-1{
   grid-column: span 1 / span 1;
 }
@@ -573,6 +581,10 @@ video {
   margin-top: 2rem;
 }
 
+.inline-block{
+  display: inline-block;
+}
+
 .flex{
   display: flex;
 }
@@ -583,10 +595,6 @@ video {
 
 .h-screen{
   height: 100vh;
-}
-
-.w-2\/3{
-  width: 66.666667%;
 }
 
 .w-20{
@@ -740,8 +748,8 @@ video {
 }
 
 .album-section{
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+  margin-left: 11rem;
+  margin-right: 11rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
   display: grid;
@@ -751,8 +759,6 @@ video {
 
 .album{
   position: relative;
-  display: flex;
-  justify-content: center;
 }
 
 .home-btn{

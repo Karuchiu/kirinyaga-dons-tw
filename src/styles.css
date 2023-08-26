@@ -10,11 +10,11 @@
 }
 
 .album-section{
-  @apply grid grid-cols-2  mx-10 my-12 gap-10;
+  @apply grid grid-cols-2 mx-44 my-12 gap-10;
 }
 
 .album{
-  @apply flex justify-center relative;
+  @apply relative;
 }
 
 .home-btn {
