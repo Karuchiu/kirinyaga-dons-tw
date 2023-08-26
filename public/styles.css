@@ -550,29 +550,19 @@ video {
   margin: 1.5rem;
 }
 
-.mx-8{
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.mx-14{
-  margin-left: 3.5rem;
-  margin-right: 3.5rem;
-}
-
-.mx-2{
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.mx-24{
-  margin-left: 6rem;
-  margin-right: 6rem;
-}
-
 .mx-28{
   margin-left: 7rem;
   margin-right: 7rem;
+}
+
+.mx-44{
+  margin-left: 11rem;
+  margin-right: 11rem;
+}
+
+.mx-8{
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .mt-2{
@@ -593,6 +583,10 @@ video {
 
 .h-screen{
   height: 100vh;
+}
+
+.w-2\/3{
+  width: 66.666667%;
 }
 
 .w-20{
@@ -684,6 +678,10 @@ video {
   padding: 2.5rem;
 }
 
+.p-3{
+  padding: 0.75rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -739,6 +737,22 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   --tw-shadow-color: #6b7280;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.album-section{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.5rem;
+}
+
+.album{
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .home-btn{
